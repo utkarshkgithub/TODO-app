@@ -9,10 +9,10 @@ spec:
   source:
     repoURL: https://github.com/utkarshkgithub/TODO-app.git
     targetRevision: HEAD
-    path: dev
+    path: kubernetes
   destination: 
     server: https://kubernetes.default.svc
-    namespace: myapp
+    namespace: todo
 
   syncPolicy:
     syncOptions:
